@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App {
+  background-image: url('http://localhost:5000/image/background.jpg');
+  background-attachment: fixed; /* รูปภาพจะเป็นพื้นหลังที่ติดตามหน้าเว็บเมื่อเลื่อน */
+  background-repeat: no-repeat; /* ไม่ให้รูปภาพทำซ้ำ */
+  background-size: cover; /* ปรับขนาดรูปภาพให้ครอบคลุมพื้นที่ทั้งหน้าเว็บ */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 80px;
+  min-height: 100vh; /* เพิ่ม min-height แทนที่ height */
+  min-width: 100vw;
+}
+.App-header {
+  
+  background-size: cover; /* ปรับขนาดรูปภาพให้ครอบคลุมพื้นที่ทั้งหน้าเว็บ */
+  background-repeat: no-repeat; /* ไม่ให้รูปภาพทำซ้ำ */
+  background-attachment: fixed; /* รูปภาพจะเป็นพื้นหลังที่ติดตามหน้าเว็บเมื่อเลื่อน */
+  background-color: rgba(35, 34, 34, 0.7); /* กำหนดสีพื้นหลังและความทึบ*/
+  width: 800px;
+  height: 700px;
+  left: 294px;
+  top: 127px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
